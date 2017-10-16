@@ -1,8 +1,8 @@
-function cmap=morgenstemning(n,varargin)
-%MORGENSTEMNING Colormap that increases linearly in lightness (with colors)
+function cmap = morgenstemning(n,varargin)
+% MORGENSTEMNING Colormap that increases linearly in lightness (with colors)
 %
-%	Written by Matthias Geissbuehler - matthias.geissbuehler@a3.epfl.ch
-%	January 2013
+% Written by Matthias Geissbuehler - matthias.geissbuehler@a3.epfl.ch
+% January 2013
 %
 %   Colormap that increases linearly in lightness (such as a pure black to white
 %   map) but incorporates additional colors that help to emphasize the
@@ -80,6 +80,7 @@ function cmap=morgenstemning(n,varargin)
 
 %   Copyright 2013 Matthias Geissbuehler - matthias.geissbuehler@a3.epfl.ch
 %   $Revision: 3.0 $  $Date: 2013/01/29 12:00:00 $
+
 p=inputParser;
 p.addParamValue('minColor','none');
 p.addParamValue('maxColor','none');
