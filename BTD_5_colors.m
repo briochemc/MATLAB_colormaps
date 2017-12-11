@@ -5,5 +5,5 @@ function cmap = BTD_5_colors
 cmap = [  0   0   0 ; % black (typ state)
         213  94   0 ; % red (hiAloS state)
         230 159   0 ; % orange (loAhiS state)
-          0 114 178 ; % blue (hiH state)
-         86 180 233 ] / 255;% sky blue (loH state)
+         86 180 233 ; % blue (loH state)
+          0 114 178 ] / 255;% sky blue (hiH state)
